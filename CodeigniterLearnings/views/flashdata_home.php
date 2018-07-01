@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form success form</title>
+    <title>Document</title>
 </head>
 <body>
-    <h3>Your form was successfully submitted!!</h3>
-    <p>
-        <?php
-         echo anchor('form', 'Try it again');
-        ?>
-    </p>
+    Flash data example 
+
+    <h2><?php 
+    echo $this->session->flashdata('item');
+     ?></h2>
+     <a href="flashdata/add">Click here to add flash data</a>
 </body>
 </html>
-
-l

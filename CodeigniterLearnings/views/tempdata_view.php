@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form success form</title>
+    <title>Codeigniter Temp data</title>
 </head>
 <body>
-    <h3>Your form was successfully submitted!!</h3>
-    <p>
-        <?php
-         echo anchor('form', 'Try it again');
-        ?>
-    </p>
+Temp data example 
+<h2><?php echo $this->session->tempdata('item')?></h2>
+
+<a href="tempdata/add">Click here to add the temp data</a>
 </body>
 </html>
-
-l
