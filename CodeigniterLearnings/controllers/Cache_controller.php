@@ -9,7 +9,7 @@ class Cache_controller extends CI_Controller {
     public function index()
     {
         //enable cache
-        $this->ouput->cache(1);
+        $this->output->cache(1);
         $this->load->view('test');
     }
 
