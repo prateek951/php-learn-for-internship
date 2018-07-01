@@ -19,7 +19,7 @@
             $this->load->view('Stud_add');
         }
         public function add_student(){
-            $this->load->model('Stud_Mode');
+            $this->load->model('Stud_Model');
             $data = array(
                 'roll_no' => $this->input->post('roll_no'),
                 'name' => $this->input->post('name')
